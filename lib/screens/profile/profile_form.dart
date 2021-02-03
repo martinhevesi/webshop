@@ -63,16 +63,12 @@ class _ProfileFormState extends State<ProfileForm> {
               ),
             ),
             Container(
-              decoration: BoxDecoration(
-                  shape: BoxShape.rectangle,
-                  boxShadow: [
-                    BoxShadow(
-                      color: Colors.white54,
-                      blurRadius: 8.0,
-                      spreadRadius: 1.0,
-                    ),
-                  ]
-              ),
+                decoration: BoxDecoration(
+                  border: Border.all(
+                    color: Colors.deepPurple,
+                    width: 2,
+                  ),
+                ),
               child: Card(
                 color: Colors.grey[900],
                 child: Padding(
